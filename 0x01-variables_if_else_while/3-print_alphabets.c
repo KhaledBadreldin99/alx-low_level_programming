@@ -3,13 +3,21 @@
  * main - Entry point
  * Return: 0 (Success)
 */
-
 int main(void)
 {
-	for (char ch = 'A'; ch <= 'Z'; ch++)
-	putchar(ch);
+	char ch = 'a';
+	char CH = 'A';
+
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+		while (CH <= 'Z')
+	{
+		putchar(CH);
+		CH++;
+	}
 	putchar('\n');
-	for (char ch = 'a'; ch <= 'z'; ch++)
-	putchar(ch);
 	return (0);
 }
