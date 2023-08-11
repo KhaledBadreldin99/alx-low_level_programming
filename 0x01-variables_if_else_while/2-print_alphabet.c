@@ -4,12 +4,11 @@
  *
  * Return: 0 (success)
 */
-
 int main(void)
 {
 	char ch = 'a';
 
-	while (ch <= 'Z')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
